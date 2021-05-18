@@ -1,0 +1,279 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'MR';
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header10A {
+    padding-top: 20px;
+}
+
+.header10a {
+    font-size: 10px;
+    color: grey;
+    padding: 7px 10px;
+    margin: 0 5px;
+}
+
+.header10a:hover {
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    color: black;
+    font-weight: 900;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.header11 {
+    color: white;
+    background: url(../img/header.png) no-repeat center center / cover;
+}
+
+.header11a {
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.header11a:first-of-type {
+    margin-right: 20px;
+}
+
+.header11div {
+    margin: 70px 0;
+}
+
+.header11divp {
+    max-width: 500px;
+}
+
+.main10 {
+    padding: 20px 0;
+}
+
+.main10Adiv {
+    bottom: 50px;
+    left: 40%;
+}
+
+.main10A {
+    color: white;
+}
+
+.main10A:first-of-type {
+    padding-right: 10px;
+}
+
+.main10A:last-of-type {
+    padding-left: 10px;
+}
+
+.main10Aa {
+    color: white;
+    margin-left: 50px;
+}
+
+.main10Aa-1 {
+    margin-right: 50px;
+    color: white;
+}
+
+.main10Adiv2 {
+    margin: 20px 0;
+}
+
+.main11 {
+    background: black;
+    padding: 50px 0;
+    color: white;
+}
+
+.main11p {
+    max-width: 500px;
+}
+
+.main12 {
+    background: url(../img/m12.png) no-repeat center center / cover;
+    margin: 20px 0;
+}
+
+.main12h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    max-width: 600px;
+}
+
+.main12a {
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+
+.main12a:first-of-type {
+    margin-right: 15px;
+}
+
+.main12a:last-of-type {
+    margin-left: 15px;
+}
+
+.main13h2 {
+    margin-bottom: 50px;
+}
+
+.main13a {
+    color: rgb(63, 62, 62);
+}
+
+.main13B {
+    left: 0;
+    bottom: 20%;
+}
+
+.main13p {
+    max-width: 400px;
+}
+
+.main14 {
+    background-color: white;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main14-p {
+    font-size: 20px;
+    max-width: 730px;
+    width: 100%;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.carousel-inner {
+    color: white;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+
+.footer {
+    background: black;
+    padding: 100px 0;
+    color: grey;
+}
+
+.footer10h3 {
+    margin-bottom: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer10a {
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 12px;
+}
+
+.footer10ab {
+    color: white;
+    font-size: 12px;
+}
+
+.input {
+    padding: 10px 40px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.input-1 {
+    padding-left: 10px;
+}
+
+.footerp {
+    font-size: 12px;
+}
+
+.footeri {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+@media (max-width:1000px) {
+    .header11 {
+        padding: 50px 0;
+    }
+
+    .main10 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main10A:first-of-type {
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .main10A:last-of-type {
+        padding-right: 10px;
+    }
+
+    .main13B {
+        bottom: 0;
+    }
+
+    .main13h2 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:500px) {
+
+    .main13h2,
+    .main13p,
+    .main13a {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .main13p {
+        max-width: 200px;
+    }
+}
+
+@media (max-width:400px) {
+    .main10Adiv {
+        left: 10%;
+    }
+
+    .main10Adiv:first-of-type {
+        bottom: 0;
+    }
+
+    .main10Adiv:last-of-type {
+        bottom: 15px;
+    }
+}
